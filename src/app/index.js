@@ -1,3 +1,5 @@
+// const { docElement } = required("./view/view.js");
+
 const client = contentful.createClient({
   // This is the space ID. A space is like a project folder in Contentful terms
   space: "vajel9mfz0r6",
@@ -25,7 +27,7 @@ const docElement = {
   cartContent: document.querySelector(".cart-content"),
   productDOM: document.querySelector(".products-center"),
 };
-// cart
+
 let cart = [];
 
 let buttonsDOM = [];
